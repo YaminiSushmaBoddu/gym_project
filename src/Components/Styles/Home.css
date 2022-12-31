@@ -1,0 +1,49 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.left_h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right_h{
+    flex: 1;
+}
+.the_best_ad{
+    margin-top: 4rem;
+    background-color: rgb(64, 63, 63);
+    color: white;
+    width: fit-content;
+    padding: 20px 12px;
+    border-radius: 4rem;
+    text-transform: uppercase ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the_best_ad>div{
+    position: absolute;
+    background-color: rgb(206, 98, 59);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+.the_best_ad>span{
+    z-index:2;
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+   text-overflow: inherit;
+}

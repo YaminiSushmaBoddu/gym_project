@@ -1,0 +1,29 @@
+.logo{
+    width: 10rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+.nav-item{
+    padding-left: 3rem;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(225, 116, 83);
+}
+.login{
+    margin-left: 15rem;
+}
+.login:hover{
+    background-image: linear-gradient( #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+
+
+.signout{
+    margin-left: 2rem;
+   
+}
+.signout:hover{
+    background-image: linear-gradient( #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
