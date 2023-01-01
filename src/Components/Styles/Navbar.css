@@ -4,7 +4,7 @@
     padding-top: 0.5rem;
 }
 .nav-item{
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 .nav-link{
     color: white;
@@ -13,7 +13,7 @@
     color: rgb(225, 116, 83);
 }
 .login{
-    margin-left: 15rem;
+    margin-left: 18rem;
 }
 .login:hover{
     background-image: linear-gradient( #f6d365 0%, #fda085 51%, #f6d365 100%);
