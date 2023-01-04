@@ -60,10 +60,9 @@ const Home = () => {
         {/* {calories} */}
         <div className="calories">
           <img src={Calories} alt="" />
-          <div>
-          <span>CaloriesBurned</span>
-          <span>220kcal</span>
-          </div>
+         <div>
+         <span>CaloriesBurned</span>
+          <span>220kcal</span></div>    
         </div>
       </div>
     </div>

@@ -11,13 +11,13 @@ const Testimonials = () => {
     <div className="Testimonials">
       <div className="left-t">
         <span>Testimonials</span>
-        <span className="stroke-text">What they</span>
+        <span className="stroke">What they</span>
         <span>say about us</span>
         <span>{testimonialsData[selected].review}</span>
-        <span>
+        <span style={{ color: "white" }}>
           <span style={{ color: "var(--orange)" }}>
             {testimonialsData[selected].name}
-          </span>{" "}
+          </span >{" "}
           - {testimonialsData[selected].status}
         </span>
       </div>
@@ -36,7 +36,13 @@ const Testimonials = () => {
             src={leftArrow}
             alt=""
           />
-          <img src={rightArrow} alt="" />
+          <img
+           onClick={() => {
+            selected === tLength - 1
+              ? setSelected(0)
+              : setSelected((prev) => prev + 1);
+          }}
+           src={rightArrow} alt="" />
         </div>
       </div>
     </div>
