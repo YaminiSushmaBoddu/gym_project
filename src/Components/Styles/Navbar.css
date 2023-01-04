@@ -10,7 +10,7 @@
     color: white;
 }
 .nav-link:hover{
-    color: rgb(225, 116, 83);
+    color: var(--orange);
 }
 .login{
     margin-left: 18rem;
