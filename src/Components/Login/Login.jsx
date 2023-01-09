@@ -1,28 +1,35 @@
-import React, { useEffect, useRef } from 'react'
-import { useState} from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 
 
 const Login = () => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const handileemail=(e)=>{
+  console.log(email, password);
+  const handileemail = (e) => {
     setEmail(e.target.value)
   }
-  const handilepassword=(e)=>{
+  const handilepassword = (e) => {
     setPassword(e.target.value)
-  } 
-  const handileclick=()=>{
-    console.log({email,password})
   }
-  
+  const handileclick = () => {
+    axios.post('https://reqres.in/api/login').then(res=>{
+      console.log(res);
+      alert('success')
+    }).catch(error=>{
+      alert('server error')
+      console.log(error);
+    })
+  }
+
   return (
     <div className='app'>
-<form>
-  <input type="email" value={email} onChange={handileemail}/><br/>
-  <input type="password" value={password} onChange={handilepassword}/>
-  <button onClick={handileclick}>login</button>
-  </form>
+      <form>
+        <input type="email" value={email} onChange={handileemail} /><br />
+        <input type="password" value={password} onChange={handilepassword} /><br />
+        <button onClick={handileclick}>login</button>
+      </form>
     </div>
   )
 }
