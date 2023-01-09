@@ -33,9 +33,13 @@ const Navbar = () => {
           {/* <a className="nav-link disabled">Disabled</a> */}
           <Link className="nav-link" to='/Testimonials'>Testimonials</Link>
         </li>
-      </ul>
-      <button type='button' className='btn btn-light login '>Sign in</button>
-      <button type='button' className='btn btn-light signout '>Sign out</button>
+        <li  className="nav-item">
+        <Link  className="nav-link" to='/Login'>Sign in</Link>
+        </li>
+        <li  className="nav-item">
+          <Link className="nav-link"  to='/Logout'>Sign out</Link>
+        </li>
+      </ul> 
     </div>
   </div>
 </nav>
