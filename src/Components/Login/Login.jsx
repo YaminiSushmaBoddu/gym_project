@@ -14,7 +14,10 @@ const Login = () => {
     setPassword(e.target.value)
   }
   const handileclick = () => {
-    axios.post('https://reqres.in/api/login').then(res=>{
+    axios.post('http://localhost:3000/users', {
+      email:email,
+      password:password
+    }).then(res=>{
       console.log(res);
       alert('success')
     }).catch(error=>{

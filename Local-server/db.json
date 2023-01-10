@@ -1,0 +1,15 @@
+{
+    "users":[
+        {
+            "id":1,
+            "email":"Ravitejatorrikonda@gmail",
+            "password":"ravi974479"
+        },
+        {
+            "id":2,
+            "email":"sushma@gmail.com",
+            "password":"sushma123"
+        }
+    ]
+  
+}
