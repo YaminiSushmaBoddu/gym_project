@@ -13,7 +13,12 @@ const Plans = () => {
       </div>
       {/* Plans card */}
       <div className="plans">
+<<<<<<< HEAD
         {plansData.map((plan, i) => (
+=======
+        {/* {plansData.map((plan, i) => ( */}
+        {plansData.map((plan,i) => (
+>>>>>>> 4aa57f44155135b2e2f5bc7778efefc9b8a7f929
           <div className="plan" key={i}>
             {plan.icon}
             <span>{plan.name}</span>
