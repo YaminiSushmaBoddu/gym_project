@@ -19,11 +19,14 @@ const Login = () => {
       password:password
     }).then(res=>{
       console.log(res);
-      alert('success')
+      alert('success');
+      <h1>login succesfully completed</h1>
+
     }).catch(error=>{
       alert('server error')
       console.log(error);
     })
+    
   }
 
   return (

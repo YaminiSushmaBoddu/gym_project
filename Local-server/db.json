@@ -8,7 +8,17 @@
         {
             "id":2,
             "email":"sushma@gmail.com",
-            "password":"sushma123"
+            "password":"sushma1234"
+        },
+        {
+            "id":3,
+            "email":"salavuddin@gmail.com",
+            "password":"salavuddin1234"
+        },
+        {
+            "id":4,
+            "email":"sriram@gmail.com",
+            "password":"sriram1234"
         }
     ]
   
