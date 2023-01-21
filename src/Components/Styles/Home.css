@@ -1,6 +1,7 @@
 .home{
     display: flex;
     justify-content: space-between;
+
 }
 
 .left_h{
@@ -18,7 +19,7 @@
 }
 .the_best_ad{
     margin-top: 4rem;
-    background-color: rgb(64, 63, 63);
+    background-color: rgb(101, 97, 97);
     color: white;
     width: fit-content;
     padding: 20px 12px;
@@ -31,7 +32,7 @@
 }
 .the_best_ad>div{
     position: absolute;
-    background-color: rgb(206, 98, 59);
+    background-color: var(--orange);
     width: 5.4rem;
     height: 80%;
     left: 8px;
@@ -49,6 +50,7 @@
     font-size: 4.5rem;
     font-weight: bold;
    text-overflow: inherit;
+   color: white;
 }
 
 .hero_text>div:nth-of-type(3){
@@ -68,6 +70,7 @@
 }
 .figures>div>span:nth-of-type(1){
     font-size: 2rem;
+    color: white;
 }
 .figures>div>span:nth-of-type(2){
     color: var(--gray);
@@ -83,12 +86,12 @@
    font-weight: normal;
 }
 .home_buttons>:nth-child(1){
-    color: rgb(91, 85, 85) ;
+    color: white ;
     background-color: var(--orange);
     width: 8rem;
 }
 .home_buttons>:nth-child(2){
-    color: rgb(91, 85, 85) ;
+    color:white ;
     background-color: transparent;
     border: 2px solid var(--orange);
     width: 8rem;
@@ -150,6 +153,7 @@
 }
 .calories>div{
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
      justify-content: space-between;
+     color: white;
 }

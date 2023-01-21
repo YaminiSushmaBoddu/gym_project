@@ -9,7 +9,8 @@ const Home = () => {
     <div className='home'>
       <div className="left_h">
         <div className='the_best_ad'>
-          <div></div>
+        <div>
+          </div>
           <span>The best Fitness club in the town</span>
         </div>
         {/* Heading */}
@@ -59,10 +60,9 @@ const Home = () => {
         {/* {calories} */}
         <div className="calories">
           <img src={Calories} alt="" />
-          <div>
-          <span>Calories Burned</span>
-          <span>220 kcal</span>
-          </div>
+         <div>
+         <span>CaloriesBurned</span>
+          <span>220kcal</span></div>    
         </div>
       </div>
     </div>

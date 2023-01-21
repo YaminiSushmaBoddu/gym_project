@@ -8,6 +8,7 @@ import Testimonials from './Components/Testimonials';
 import Login from './Components/Login/Login';
 import Logout from './Components/Logout';
 import Whyus from './Components/Whyus';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/Login' element={<Login/>}/>
           <Route path='/Logout' element={<Logout/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
